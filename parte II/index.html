@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>likes-projet</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div>
+        <h1 class="title">Network</h1>
+    </div>
+    <div>
+        <h1 class="subtitle">Your Feed</h1>
+    </div>
+
+    <div class="container">
+        <div class="left-nav">
+            <img src="icons/user-circle.png" alt="imagen avatar" class="avatar" />
+            <p><a href="#" class=link> Add an avatar</a></p>
+            <h2 class="name">James Doe</h2>
+        </div>
+
+        <div class="right-nav">
+            <div class="post">
+                <div class="encabezado">
+                    <h2>Neil M</h2>
+                    <div class="likes">
+                        <h4  id="numero1">0 </h4>
+                        <h4> like(s) </h4>
+                    </div>
+                    <div>
+                        <button onclick="incrementa1()" id="btn1">Like</button>
+                    </div>
+                </div>
+                <div>
+                    <p>I just set up this new discord bot, let me know what you all think. <a href="#">Link</a></p>
+                </div>
+            </div>
+
+            <div class="post">
+                <div class="encabezado">
+                    <h2>Nichole K</h2>
+                    <div class="likes">
+                        <h4  id="numero2">0 </h4>
+                        <h4> like(s) </h4>
+                    </div>
+                    <div>
+                        <button onclick="incrementa2()" id="btn2">Like</button>
+                    </div>
+                </div>
+                <div>
+                    <p>Just finished my <a href="#">next comic</a>, check it out.</p>
+                </div>
+            </div>
+
+            <div class="post">
+                <div class="encabezado">
+                    <h2>Jim R</h2>
+                    <div class="likes">
+                        <h4  id="numero3">0 </h4>
+                        <h4> like(s) </h4>
+                    </div>
+                    <div>
+                        <button onclick="incrementa3()" id="btn3">Like</button>
+                    </div>
+                </div>
+                <div>
+                    <p>I can't stop listening to the <a href="#">new album</a>.</p>
+                    <p> Who else is liking it?</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
